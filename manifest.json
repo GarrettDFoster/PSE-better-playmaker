@@ -1,0 +1,14 @@
+{
+    "name": "PSE-better-playmaker",
+    "version": "2019.02.03",
+    "description": "A Chrome extension that improves the functionality of the play maker in Pigskin Empire.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["http://*pigskinempire.com/play.aspx*"],
+          "css": [],
+          "js": ["inject.js"]
+        }
+      ],
+    "web_accessible_resources": ["main.js"]
+  }
