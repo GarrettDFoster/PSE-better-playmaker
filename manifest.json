@@ -5,8 +5,7 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-          "matches": ["http://*pigskinempire.com/play.aspx*"],
-          "css": [],
+          "matches": ["http://www.pigskinempire.com/play.aspx*"],
           "js": ["inject.js"]
         }
       ],
